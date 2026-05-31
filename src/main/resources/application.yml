@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ai-code-helper
+  profiles:
+    active: local
+
+ai:
+  dashscope:
+    api-key: ${DASHSCOPE_API_KEY:your-api-key-here}
+    model-name: qwen-max
